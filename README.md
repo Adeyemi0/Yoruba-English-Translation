@@ -7,6 +7,9 @@ A production-ready neural machine translation system for Yoruba-English bidirect
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
+
+![Translation Demo](yoruba%20-%20english%20translation.gif)
+
 **Live Demo:** [Try it on Hugging Face Spaces](https://huggingface.co/spaces/adeyemi001/yoruba-english-translation-model)
 
 ---
