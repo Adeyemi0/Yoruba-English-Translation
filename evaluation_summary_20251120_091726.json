@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "timestamp": "20251120_091726",
+    "model_path": "/content/drive/MyDrive/Translation Model/model/afriteva_large",
+    "output_dir": "/content/drive/MyDrive/Translation Model/finetuned_model/final_model",
+    "total_samples": 101906,
+    "train_samples": 81526,
+    "val_samples": 10190,
+    "test_samples": 10190,
+    "training_config": {
+      "batch_size": 32,
+      "gradient_accumulation_steps": 2,
+      "effective_batch_size": 64,
+      "learning_rate": 3e-05,
+      "num_epochs": 18,
+      "max_length": 128,
+      "warmup_steps": 300,
+      "early_stopping_patience": 3,
+      "save_steps": 6000
+    },
+    "timing": {
+      "training_duration_seconds": 19310.870081,
+      "training_duration_hours": 5.364130578055556,
+      "evaluation_duration_seconds": 1223.915919,
+      "total_duration_hours": 5.733278920555555
+    }
+  },
+  "metrics": {
+    "bleu": 0.16299432792988583,
+    "bleu_1": 0.4857350031434291,
+    "bleu_2": 0.22334903103809603,
+    "bleu_3": 0.118357932807019,
+    "bleu_4": 0.06640085340048615,
+    "meteor": 0.4626347088490042,
+    "rouge1": 0.5882856026145843,
+    "rouge2": 0.3434264404086754,
+    "rougeL": 0.5172690689498185,
+    "rougeLsum": 0.5172426321459171,
+    "chrf": 39.28409599865716,
+    "ter": 68.52434835746044
+  },
+  "sample_translations": [
+    {
+      "source": "translate Yoruba to English: Bí ó tilẹ̀ jẹ́ pé, jíjáwé olúborí nínú àṣekágbá ìdíje náà kò tíi tó láti fẹsẹ̀ àkọ́nimọ̀ọ́gbá ikọ̀ ọ̀hún, Antonio Conte múlẹ̀, lẹ́ni tí ìrètí wà pé wọn yóò gba iṣẹ́ lọ́wọ́ rẹ̀ tí sáà ìdíje yìí bá parí, látàrí àìṣe déédé ikọ̀ náà, tí wọn kò sì tún pegedé fún ìdíje UEFA champions league ti sáà tó ń bọ̀, lẹ́yìn tí wọ́n parí sípò karùn-ún lórí tábìlì ìdíje EPL.",
+      "reference": "Though the victory in the finals is not enough to confirm the team coach Antonio Conte mule, who is expected to take over from him after the games this season, due to the inconsistence of the teamand does not qualify for the UEFA championship league in the next seasonafter ending up in the fifth position on the EPL chat.",
+      "prediction": "while at the end of the season, antonio conte is expected to win the competition if the competition is expected to end as the end of the uefa champions league which will be qualified at the end of the uefa champions league."
+    },
+    {
+      "source": "translate Yoruba to English: Nípa idà ni ìwọ yóò máa gbé,   ìwọ yóò sì máa sin àbúrò rẹ,   ṣùgbọ́n ní ìkẹyìn, nígbà tí ìwọ bá di alágbára   ìwọ yóò já àjàgà rẹ̀-kúrò lọ́rùn rẹ   ìwọ yóò sì di òmìnira.”",
+      "reference": "By your sword will you live, and you will serve your brother. It will happen, when you will break loose, That you shall shake his yoke from off your neck.\"",
+      "prediction": "by the sword you shall dwell with the sword, and serve your younger brother; but at last you shall be strong, and you shall be free from your neck.\""
+    },
+    {
+      "source": "translate Yoruba to English: ⓑ “ ‘Lẹ́yìn nǹkan wọ̀nyí ni èmi ó padà,   èmi ó sì tún àgọ́ Dáfídì pa tí ó ti wó lulẹ̀:   èmi ó sì tún ahoro rẹ̀ kọ́,   èmi ó sì gbé e ró:",
+      "reference": "'After these things I will return. I will again build the tent of David, which has fallen. I will again build its ruins. I will set it up,",
+      "prediction": "after these things will i return, and caused the tent of david to fall, which he has thrown down; and i will build an ensign, and will raise it up."
+    },
+    {
+      "source": "translate Yoruba to English: OLÚWA ti fi ihò kíkún fún ìbínú rẹ̀;   ó sì tú ìbínú gbígbóná rẹ̀ jáde.   Ó da iná ní Síónì   tí ó jó ìpìlẹ̀ rẹ̀ run.",
+      "reference": "Yahweh has accomplished his wrath, he has poured out his fierce anger; He has kindled a fire in Zion, which has devoured the foundations of it.",
+      "prediction": "yahweh has filled his fierce anger with the fierceness of his anger, and has poured out his fierce anger, and has devoured the fire in zion, which has devoured his foundation."
+    },
+    {
+      "source": "translate Yoruba to English: Kí ó fìbínú dáhùn, àti àwọn mìíràn”. “Rárá.”",
+      "reference": "Talking angrily, and the rest of it. No.",
+      "prediction": "he answers, and others. \"no.\""
+    },
+    {
+      "source": "translate English to Yoruba: You have built your lofty place at the head of every way, and have made your beauty an abomination, and have opened your feet to everyone who passed by, and multiplied your prostitution.",
+      "reference": "Ní gbogbo òpin ojú pópó lo kọ ojúbọ gíga sí tó o sì fi ẹwà rẹ̀ wọlé, o sọ àgbèrè rẹ di púpọ̀ nípa fífi ara rẹ sílẹ̀ fún gbogbo ẹni tó ń kọjá lọ.",
+      "prediction": "ìwọ ti kọ́ ibi gíga sí orí gbogbo ọ̀nà, ìwọ sì ti mú ẹwà rẹ bínú. ìwọ sì ṣí ẹsẹ̀ rẹ sílẹ̀ fún olúkúlùkù ẹni tí ń kọjá lọ, ìwọ sì ń sọ àgbèrè rẹ di púpọ̀."
+    },
+    {
+      "source": "translate English to Yoruba: Master said they were going to Lagos, master told her to take care of the house well.",
+      "reference": "Ọ̀gá ni àwọn ń lọ sí Èkó, ọgá ní kí ó tọ́jú ilé dáadáa.",
+      "prediction": "ọ̀gá sọ fún un pé wọ́n lọ sí èkó, ọ̀gá sọ fún un pé kí ó tọ́júu ilé náà dáadáa."
+    },
+    {
+      "source": "translate English to Yoruba: Nine days wash the face, thirteen days wash the feet.",
+      "reference": "Isán ń bọ́jú, ìtàlá ń wẹsẹ̀.",
+      "prediction": "ọjọ́ mẹ́sàn-án wẹ ojú, ọjọ́ kẹ́rin wẹ ẹsẹ̀."
+    },
+    {
+      "source": "translate English to Yoruba: God said, \"Let there be light,\" and there was light.",
+      "reference": "Ọlọ́run sì wí pé, “Jẹ́ kí ìmọ́lẹ̀ kí ó wà,” ìmọ́lẹ̀ sì wà.",
+      "prediction": "ọlọ́run sì wí pé, “jẹ́ kí ìmọ́lẹ̀ wà,” àti ìmọ́lẹ̀ sì wà."
+    },
+    {
+      "source": "translate English to Yoruba: \"This is my resting place forever. Here I will live, for I have desired it.",
+      "reference": "Èyí ní ibi ìsinmi mí láéláé:   níhìn-ín ni èmi yóò máa gbé:   nítorí tí mo fẹ́ ẹ.",
+      "prediction": "“èyí ni ibi ìsinmi mi títí láé; níhìn-ín ni èmi yóò yè, nítorí èmi ti fẹ́ ẹ."
+    },
+    {
+      "source": "translate Yoruba to English: Síwájú sí, nígbà tí Ọlọ́run fún ẹnikẹ́ni ní ọrọ̀ àti ohun ìní, tí ó sì fún-un lágbára láti gbádùn wọn, láti gba ìpín rẹ̀ kí inú rẹ̀ sì dùn sí iṣẹ́ rẹ̀—ẹ̀bùn Ọlọ́run ni èyí.",
+      "reference": "Every man also to whom God has given riches and wealth, and has given him power to eat of it, and to take his portion, and to rejoice in his labor--this is the gift of God.",
+      "prediction": "it happened, when god gave to any man riches and possessions, and gave him strength to enjoy them, to receive his portion, and be glad in his works; this is the gift of god."
+    },
+    {
+      "source": "translate Yoruba to English: “OLÚWA ti bínú sí àwọn baba ńlá yín.",
+      "reference": "\"Yahweh was very displeased with your fathers.",
+      "prediction": "yahweh has angry with your fathers."
+    },
+    {
+      "source": "translate English to Yoruba: Refuse to talk to him? But I'm speaking to you",
+      "reference": "Kọ̀ láti bá wọn sọ̀rọ̀? Ṣùgbọ́n mò ń bá yín sọ̀rọ̀",
+      "prediction": "kọ̀ láti bá a sọ̀rọ̀? ṣùgbọ́n mo ń bá ọ sọ̀rọ̀"
+    },
+    {
+      "source": "translate Yoruba to English: Ó gba Àlàmú níyànjú pé kí ó ra àwọn nǹkan ti yóò mú kí ilé náà rẹwà.",
+      "reference": "She encouraged Alamu to purchase items that would make the house look exquisite.",
+      "prediction": "alamu assured alamu to buy something that would make the building strong."
+    },
+    {
+      "source": "translate English to Yoruba: [Micaiah] said, Therefore hear you the word of Yahweh: I saw Yahweh sitting on his throne, and all the host of heaven standing by him on his right hand and on his left.",
+      "reference": "Míkáyà sì tún wí pé, “Nítorí náà gbọ́ ọ̀rọ̀ OLÚWA: Mo rí OLÚWA jókòó lórí ìtẹ́ rẹ̀ pẹ̀lú gbogbo ogun ọ̀run dúró ní apá ọ̀tún àti ní apá òsì rẹ̀.",
+      "prediction": "míkáyà sì wí pé, “nítorí náà, gbọ́ ọ̀rọ̀ olúwa. mo rí olúwa jòkó lórí ìtẹ́ rẹ̀ gbogbo ogun ọ̀run sì dúró ní apá ọ̀tún rẹ̀ àti ní òsì rẹ̀."
+    },
+    {
+      "source": "translate Yoruba to English: Ìwọ ti sọ orílẹ̀-èdè di ńlá;   wọ́n sì yọ̀ níwájúu rẹ   gẹ́gẹ́ bí àwọn ènìyàn ti í yọ ayọ̀ ìkóórè,   gẹ́gẹ́ bí ènìyàn ti í yọ̀   nígbà tí à ń pín ìkógun.",
+      "reference": "You have multiplied the nation, you have increased their joy: they joy before you according to the joy in harvest, as men rejoice when they divide the spoil.",
+      "prediction": "you have exalted the nations. they are glad before you, as the peoples rejoice in the joy of harvest, as the multitude of men have rejoiced."
+    },
+    {
+      "source": "translate English to Yoruba: Jesus answered them, \"I have shown you many good works from my Father. For which of those works do you stone me?\"",
+      "reference": "Jésù dá wọn lóhùn pé, “Ọ̀pọ̀lọpọ̀ iṣẹ́ rere ni mo fi hàn yín láti ọ̀dọ̀ Baba mi wá; nítorí èwo nínú iṣẹ́ wọ̀nyí ni ẹ̀yin ṣe sọ mí ní òkúta?”",
+      "prediction": "jésù dá wọn lóhùn pé, “mo ti fi ọ́ ṣe iṣẹ́ rere púpọ̀ láti ọ̀dọ̀ baba mi wá: nítorí nínú àwọn iṣẹ́ wọ̀nyí ni ìwọ fi sọ mí ní òkúta?”"
+    },
+    {
+      "source": "translate English to Yoruba: and the food of his table, and the sitting of his servants, and the attendance of his ministers, and their clothing, his cup bearers also, and their clothing, and his ascent by which he went up to the house of Yahweh; there was no more spirit in her.",
+      "reference": "Oúnjẹ tí ó wà lórí tábìlì rẹ̀, àti ìjòkòó àwọn ọmọ ọ̀dọ̀ rẹ̀, àti dídúró àwọn ìránṣẹ́ nínú aṣọ wọn, àti àwọn agbọ́tí nínú aṣọ wọn àti ẹbọ ọrẹ sísun tí ó ṣe ní ilé OLÚWA, ó sì ní ìdálágara.",
+      "prediction": "oúnjẹ tí ó wà lórí tábìlì rẹ̀, tẹ́ḿpìlì àwọn ìránṣẹ́ rẹ̀, àwọn ìránṣẹ́-bìnrin rẹ̀ àti àwọn aṣọ ìránṣẹ́-bìnrin rẹ̀, àti aṣọ ìlekè rẹ̀, àti ohun tí ó gòkè lọ sí ilé tí a kọ́ fún olúwa, kò sì sí ẹ̀mí kan nínú rẹ̀ mọ́."
+    },
+    {
+      "source": "translate English to Yoruba: Praise Yahweh from the earth, You great sea creatures, and all depths!",
+      "reference": "Ẹ yin OLÚWA láti ilẹ̀ ayé wá   ẹ̀yin ẹ̀dá inú òkun títóbi   àti ẹ̀yin ibú òkun",
+      "prediction": "yin olúwa láti ayé wá, ìwọ òkun ńlá àti gbogbo ibú omi!"
+    },
+    {
+      "source": "translate English to Yoruba: On November 30, 2018, a magnitude 7.0 earthquake struck just outside of Anchorage, Alaska.",
+      "reference": "Ní November 30, 2018, ìmìtìtì ilẹ̀ tó lágbára ṣẹlẹ̀ nítòsí ìlú Anchorage, ìpínlẹ̀ Alaska.",
+      "prediction": "ní november 30, 2018, ìmìtìtì ilẹ̀ tó lágbára gan-an wáyé ní àárín gbùngbùn anchorage, alaska."
+    }
+  ]
+}
