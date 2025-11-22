@@ -39,7 +39,7 @@ A production-ready neural machine translation system for Yoruba-English bidirect
 
 ## 🎯 Overview
 
-This project implements a state-of-the-art neural machine translation system for Yoruba-English language pairs. The model supports:
+This project implements neural machine translation system for Yoruba-English language pairs. The model supports:
 
 - **Bidirectional Translation**: Seamless English → Yoruba and Yoruba → English translation
 - **Automatic Language Detection**: Intelligently detects input language using character patterns and linguistic features
